@@ -1,0 +1,27 @@
+version: '2'
+
+services:
+  mariadb: # no modificar
+    image: docker.io/bitnami/mysql:8.0
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_USER=myapp
+      - MYSQL_DATABASE=pizzeria
+    ports:
+      - '3306:3306'
+
+  # Imagen para usar y descargar laravel
+  myapp:
+    image: docker.io/bitnami/laravel:10
+    ports:
+      - '8000:8000'
+    environment:
+      - DB_HOST=mariadb
+      - DB_PORT=3306
+      - DB_USERNAME=myapp
+      - DB_DATABASE=pizzeria
+    volumes:
+      - './my-app:/app'
+    depends_on:
+      - mariadb
