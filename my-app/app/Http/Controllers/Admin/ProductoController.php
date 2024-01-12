@@ -82,4 +82,9 @@ class ProductoController extends Controller
         $producto->delete();
         return redirect('admin/producto');
     }
+
+    public function show($id){
+        Session::put("producto_id",$id);
+        return redirect('admin/precio');
+    }
 }

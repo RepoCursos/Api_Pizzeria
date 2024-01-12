@@ -41,7 +41,7 @@ class LoginController extends Controller
     public function redirectPath()
     {
         if (auth()->user()->hasRole("admin")) {
-            return "admin/categirai";
+            return "admin/categoria";
         }
         return "/";
     }
