@@ -33,8 +33,7 @@
                 @empty
                     <tr><td></td></tr>
                 @endforelse
-            </table>
-            
+            </table>          
             @endif
         </div>
     </div>
