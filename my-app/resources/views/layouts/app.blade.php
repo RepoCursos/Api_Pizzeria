@@ -3,26 +3,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <title>{{ config('app.name', 'Laravel') }}</title>
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-
     <!-- Scripts -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/jpeg" href="/img/logo.jpeg"/>
+    <style>
+        .bg-danger{ background: #8b0103 !important }
+    </style>
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <img src="/img/logo.jpeg" style="height: 65px" alt="Pizzeria">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -30,8 +30,22 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
+                    <ul class="navbar-nav ms-auto">
 
+                    </ul>
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/catalogo">CATALOGO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/empresa">EMPRESA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/preguntas">PREGUNTAS</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -40,13 +54,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Ingresar') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Regístrese') }}</a>
                                 </li>
                             @endif
                         @else
@@ -72,10 +86,10 @@
                 </div>
             </div>
         </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
     </div>
+@yield('content')
+<div class="container mt-5">
+    <p class="text-center">&copy; Todos los derechos reservados | Pizzeria | 2024 pj.app <a href="/terminos">Terminos y condiciones</a></p>
+</div>
 </body>
 </html>

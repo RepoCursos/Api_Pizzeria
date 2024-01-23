@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         @include("admin.menu")
         <div class="col-sm-8">
-            <a href="/admin.categoria">{{$producto->categoria->nombre}}</a>
+            <a href="/admin/categoria">{{$producto->categoria->nombre}}</a>
             <a href="/admin/producto">{{$producto->nombre}}</a> <br>
             <a href="{{route("admin.precio.create")}}" class="btn btn-success">CREAR PRECIO</a>   
             <table class="table table-bordered mt-3">

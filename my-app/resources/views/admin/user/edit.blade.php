@@ -8,7 +8,7 @@
             <div class="form-group row">
                 <div class="col-sm-6">
                     {!! Form::label('nombre','Nombre') !!}
-                    {!! Form::text('nombre',$user->nombre,['class'=>'form-control','required']) !!}
+                    {!! Form::text('name',$user->name,['class'=>'form-control','required']) !!}
                 </div>
                 <div class="col-sm-6">
                     {!! Form::label('celular','Celular') !!}

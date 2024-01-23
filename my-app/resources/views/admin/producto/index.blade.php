@@ -23,7 +23,7 @@
                     <td>     
                         <ul>
                             @forelse ($c->precios as $p)
-                                <li>{{ $p->nombre }} : {{ $p->precio }}</li>
+                                <li>{{ $p->nombre }} : ${{ $p->precio }}</li>
                             @empty
 
                             @endforelse
