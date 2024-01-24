@@ -14,7 +14,7 @@ class FrontController extends Controller
     }
 
     public function catalogo(){
-        $categoria = Categoria::all();
+        $categorias = Categoria::all();
         return view('front.catalogo', compact("categorias"));
     }
 }
