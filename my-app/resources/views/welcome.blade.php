@@ -18,7 +18,7 @@
                             <p>{{ $p->precio }}</p>
                         </div>
                         <div class="card-footer">
-                            <a href="/producto/{{ $p->slug }}" class="btn btn-outline-success w-100">{{ $p->nombre }}</a>
+                            <a href="/catalogo/{{ $p->slug }}" class="btn btn-outline-success w-100">{{ $p->nombre }}</a>
                         </div>
                     </div>
                 </div>

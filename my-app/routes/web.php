@@ -9,9 +9,14 @@ $role = Role::create(['name' => 'cliente']);
 */
 Route::get('/', [App\Http\Controllers\FrontController::class, 'index']);
 Route::get('/catalogo', [App\Http\Controllers\FrontController::class, 'catalogo']);
+Route::get('/catalogo/{producto:slug}', [\App\Http\Controllers\FrontController::class, 'producto']);
+
 Route::view('/empresa', 'front.empresa');
 Route::view('/preguntas', 'front.preguntas');
 Route::view('/terminos', 'friont.terminos');
+
+// Rutas del carrito
+Route::get('/agregaritem', [\App\Http\Controllers\CarritoController::class, 'agregarItem'])->name('agregaritem');
 
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -2,23 +2,23 @@
     "SPDXID": "SPDXRef-laravel",
     "spdxVersion": "SPDX-2.3",
     "creationInfo": {
-        "created": "2023-12-19T17:54:20.889Z",
+        "created": "2024-01-30T00:05:17.807Z",
         "creators": [
             "Organization: VMware, Inc."
         ]
     },
-    "name": "SPDX document for Laravel 10.3.0",
+    "name": "SPDX document for Laravel 10.3.2",
     "dataLicense": "CC0-1.0",
     "documentDescribes": [
         "SPDXRef-laravel"
     ],
-    "documentNamespace": "laravel-10.3.0",
+    "documentNamespace": "laravel-10.3.2",
     "packages": [
         {
             "SPDXID": "SPDXRef-laravel",
             "name": "Laravel",
-            "versionInfo": "10.3.0",
-            "downloadLocation": "https://github.com/laravel/laravel/archive/v10.3.0.tar.gz",
+            "versionInfo": "10.3.2-1",
+            "downloadLocation": "https://github.com/laravel/laravel/archive/v10.3.2.tar.gz",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "filesAnalyzed": false,
@@ -26,12 +26,12 @@
                 {
                     "referenceCategory": "SECURITY",
                     "referenceType": "cpe23Type",
-                    "referenceLocator": "cpe:2.3:*:laravel:laravel:10.3.0:*:*:*:*:*:*:*"
+                    "referenceLocator": "cpe:2.3:*:laravel:laravel:10.3.2:*:*:*:*:*:*:*"
                 },
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:bitnami/laravel@10.3.0?arch=amd64&distro=debian-11"
+                    "referenceLocator": "pkg:bitnami/laravel@10.3.2-1?arch=amd64&distro=debian-11"
                 }
             ],
             "copyrightText": "NOASSERTION"
@@ -52,12 +52,13 @@
                     "referenceLocator": "pkg:composer/brick/math@0.11.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
-            "SPDXID": "SPDXRef-Package-82128a04ffa271cb",
-            "versionInfo": "3.1.0",
+            "SPDXID": "SPDXRef-Package-55184312064b6fda",
+            "versionInfo": "2.1.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -67,9 +68,10 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/carbonphp/carbon-doctrine-types@3.1.0"
+                    "referenceLocator": "pkg:composer/carbonphp/carbon-doctrine-types@2.1.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -78,6 +80,7 @@
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
             "sourceInfo": "composer.lock",
+            "primaryPackagePurpose": "APPLICATION",
             "copyrightText": "NOASSERTION",
             "licenseConcluded": "NOASSERTION",
             "licenseDeclared": "NOASSERTION"
@@ -98,12 +101,13 @@
                     "referenceLocator": "pkg:composer/dflydev/dot-access-data@v3.0.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "doctrine/inflector",
-            "SPDXID": "SPDXRef-Package-53db3a6696a87e68",
-            "versionInfo": "2.0.8",
+            "SPDXID": "SPDXRef-Package-7958e8522db6e8f4",
+            "versionInfo": "2.0.9",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -113,9 +117,10 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/doctrine/inflector@2.0.8"
+                    "referenceLocator": "pkg:composer/doctrine/inflector@2.0.9"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -134,6 +139,7 @@
                     "referenceLocator": "pkg:composer/doctrine/lexer@3.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -152,6 +158,7 @@
                     "referenceLocator": "pkg:composer/dragonmantank/cron-expression@v3.3.3"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -170,11 +177,12 @@
                     "referenceLocator": "pkg:composer/egulias/email-validator@4.0.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "fruitcake/php-cors",
-            "SPDXID": "SPDXRef-Package-5fbe6c9e5307483b",
+            "SPDXID": "SPDXRef-Package-7845ce7157fa3883",
             "versionInfo": "v1.3.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -188,6 +196,7 @@
                     "referenceLocator": "pkg:composer/fruitcake/php-cors@v1.3.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -206,6 +215,7 @@
                     "referenceLocator": "pkg:composer/graham-campbell/result-type@v1.1.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -224,6 +234,7 @@
                     "referenceLocator": "pkg:composer/guzzlehttp/guzzle@7.8.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -242,6 +253,7 @@
                     "referenceLocator": "pkg:composer/guzzlehttp/promises@2.0.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -260,6 +272,7 @@
                     "referenceLocator": "pkg:composer/guzzlehttp/psr7@2.6.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -278,12 +291,13 @@
                     "referenceLocator": "pkg:composer/guzzlehttp/uri-template@v1.0.3"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "laravel/framework",
-            "SPDXID": "SPDXRef-Package-c9878d7b77ac0e",
-            "versionInfo": "v10.38.0",
+            "SPDXID": "SPDXRef-Package-ab4a700f55fb90f7",
+            "versionInfo": "v10.42.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -293,15 +307,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/laravel/framework@v10.38.0"
+                    "referenceLocator": "pkg:composer/laravel/framework@v10.42.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "laravel/prompts",
-            "SPDXID": "SPDXRef-Package-5137f7dd75feff79",
-            "versionInfo": "v0.1.13",
+            "SPDXID": "SPDXRef-Package-22c243ca07b63c53",
+            "versionInfo": "v0.1.15",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -311,15 +326,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/laravel/prompts@v0.1.13"
+                    "referenceLocator": "pkg:composer/laravel/prompts@v0.1.15"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "laravel/sanctum",
-            "SPDXID": "SPDXRef-Package-bbc9647181a927d1",
-            "versionInfo": "v3.3.2",
+            "SPDXID": "SPDXRef-Package-a45874758da5ea1e",
+            "versionInfo": "v3.3.3",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -329,14 +345,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/laravel/sanctum@v3.3.2"
+                    "referenceLocator": "pkg:composer/laravel/sanctum@v3.3.3"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "laravel/serializable-closure",
-            "SPDXID": "SPDXRef-Package-30de6eee34902906",
+            "SPDXID": "SPDXRef-Package-d012482bbc81080b",
             "versionInfo": "v1.3.3",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -350,12 +367,13 @@
                     "referenceLocator": "pkg:composer/laravel/serializable-closure@v1.3.3"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "laravel/tinker",
-            "SPDXID": "SPDXRef-Package-c7ab03910967921d",
-            "versionInfo": "v2.8.2",
+            "SPDXID": "SPDXRef-Package-dd634a0ca16eee19",
+            "versionInfo": "v2.9.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -365,9 +383,10 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/laravel/tinker@v2.8.2"
+                    "referenceLocator": "pkg:composer/laravel/tinker@v2.9.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -386,11 +405,12 @@
                     "referenceLocator": "pkg:composer/league/commonmark@2.4.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "league/config",
-            "SPDXID": "SPDXRef-Package-6b6005520d074a86",
+            "SPDXID": "SPDXRef-Package-98a9275855858657",
             "versionInfo": "v1.2.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -404,12 +424,13 @@
                     "referenceLocator": "pkg:composer/league/config@v1.2.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "league/flysystem",
-            "SPDXID": "SPDXRef-Package-48f4793c07e2217e",
-            "versionInfo": "3.23.0",
+            "SPDXID": "SPDXRef-Package-862ccfe50aee619a",
+            "versionInfo": "3.23.1",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -419,15 +440,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/league/flysystem@3.23.0"
+                    "referenceLocator": "pkg:composer/league/flysystem@3.23.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "league/flysystem-local",
-            "SPDXID": "SPDXRef-Package-614cac7462d3d1f9",
-            "versionInfo": "3.23.0",
+            "SPDXID": "SPDXRef-Package-ed45f4847f567dae",
+            "versionInfo": "3.23.1",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -437,15 +459,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/league/flysystem-local@3.23.0"
+                    "referenceLocator": "pkg:composer/league/flysystem-local@3.23.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "league/mime-type-detection",
-            "SPDXID": "SPDXRef-Package-6942e6f3d789ef86",
-            "versionInfo": "1.14.0",
+            "SPDXID": "SPDXRef-Package-f26aff401c86bc9b",
+            "versionInfo": "1.15.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -455,9 +478,10 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/league/mime-type-detection@1.14.0"
+                    "referenceLocator": "pkg:composer/league/mime-type-detection@1.15.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
@@ -476,12 +500,13 @@
                     "referenceLocator": "pkg:composer/monolog/monolog@3.5.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "nesbot/carbon",
-            "SPDXID": "SPDXRef-Package-e001419f9d57ca9",
-            "versionInfo": "2.72.1",
+            "SPDXID": "SPDXRef-Package-32abd74f18a0e175",
+            "versionInfo": "2.72.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -491,15 +516,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/nesbot/carbon@2.72.1"
+                    "referenceLocator": "pkg:composer/nesbot/carbon@2.72.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "nette/schema",
-            "SPDXID": "SPDXRef-Package-d20d229ab369c332",
-            "versionInfo": "v1.2.5",
+            "SPDXID": "SPDXRef-Package-b4606d3704d63927",
+            "versionInfo": "v1.3.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -509,15 +535,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/nette/schema@v1.2.5"
+                    "referenceLocator": "pkg:composer/nette/schema@v1.3.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "nette/utils",
-            "SPDXID": "SPDXRef-Package-15fdbf5b9899dbe7",
-            "versionInfo": "v4.0.3",
+            "SPDXID": "SPDXRef-Package-7060507292ec3280",
+            "versionInfo": "v4.0.4",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -527,15 +554,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/nette/utils@v4.0.3"
+                    "referenceLocator": "pkg:composer/nette/utils@v4.0.4"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "nikic/php-parser",
-            "SPDXID": "SPDXRef-Package-c27ad041389d560c",
-            "versionInfo": "v4.18.0",
+            "SPDXID": "SPDXRef-Package-5d85e7d9ed7be17b",
+            "versionInfo": "v5.0.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -545,14 +573,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/nikic/php-parser@v4.18.0"
+                    "referenceLocator": "pkg:composer/nikic/php-parser@v5.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "nunomaduro/termwind",
-            "SPDXID": "SPDXRef-Package-3433e8c00fe85b49",
+            "SPDXID": "SPDXRef-Package-7fa9812d00eed63f",
             "versionInfo": "v1.15.1",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -566,11 +595,12 @@
                     "referenceLocator": "pkg:composer/nunomaduro/termwind@v1.15.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "phpoption/phpoption",
-            "SPDXID": "SPDXRef-Package-210b1f62ddab58e5",
+            "SPDXID": "SPDXRef-Package-e63b44c183e918ec",
             "versionInfo": "1.9.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -584,11 +614,12 @@
                     "referenceLocator": "pkg:composer/phpoption/phpoption@1.9.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/clock",
-            "SPDXID": "SPDXRef-Package-72ca0502e4beef32",
+            "SPDXID": "SPDXRef-Package-f059d09fa07cb3df",
             "versionInfo": "1.0.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -602,11 +633,12 @@
                     "referenceLocator": "pkg:composer/psr/clock@1.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/container",
-            "SPDXID": "SPDXRef-Package-908661c0e7b8e7e4",
+            "SPDXID": "SPDXRef-Package-99a8bdec01387b0a",
             "versionInfo": "2.0.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -620,11 +652,12 @@
                     "referenceLocator": "pkg:composer/psr/container@2.0.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/event-dispatcher",
-            "SPDXID": "SPDXRef-Package-34787ef1c71f0ef",
+            "SPDXID": "SPDXRef-Package-5f7ab8171f0a1144",
             "versionInfo": "1.0.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -638,11 +671,12 @@
                     "referenceLocator": "pkg:composer/psr/event-dispatcher@1.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/http-client",
-            "SPDXID": "SPDXRef-Package-c8d0e03bc0e0d125",
+            "SPDXID": "SPDXRef-Package-b870de15017dbe8f",
             "versionInfo": "1.0.3",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -656,11 +690,12 @@
                     "referenceLocator": "pkg:composer/psr/http-client@1.0.3"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/http-factory",
-            "SPDXID": "SPDXRef-Package-9ed0420835d5c1ae",
+            "SPDXID": "SPDXRef-Package-ba8782545b50c1a9",
             "versionInfo": "1.0.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -674,11 +709,12 @@
                     "referenceLocator": "pkg:composer/psr/http-factory@1.0.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/http-message",
-            "SPDXID": "SPDXRef-Package-50da108a9ea8a1b3",
+            "SPDXID": "SPDXRef-Package-a4c6d44ceccbdfe6",
             "versionInfo": "2.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -692,11 +728,12 @@
                     "referenceLocator": "pkg:composer/psr/http-message@2.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/log",
-            "SPDXID": "SPDXRef-Package-d3a79dad00d27db9",
+            "SPDXID": "SPDXRef-Package-11b5fe6afb1b4184",
             "versionInfo": "3.0.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -710,11 +747,12 @@
                     "referenceLocator": "pkg:composer/psr/log@3.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psr/simple-cache",
-            "SPDXID": "SPDXRef-Package-320dceb3777f58c2",
+            "SPDXID": "SPDXRef-Package-1331474ce179831",
             "versionInfo": "3.0.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -728,12 +766,13 @@
                     "referenceLocator": "pkg:composer/psr/simple-cache@3.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "psy/psysh",
-            "SPDXID": "SPDXRef-Package-2d916291252752c1",
-            "versionInfo": "v0.11.22",
+            "SPDXID": "SPDXRef-Package-fb2159bae16dcc68",
+            "versionInfo": "v0.12.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -743,14 +782,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/psy/psysh@v0.11.22"
+                    "referenceLocator": "pkg:composer/psy/psysh@v0.12.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "ralouphie/getallheaders",
-            "SPDXID": "SPDXRef-Package-b9a78e60e3be5454",
+            "SPDXID": "SPDXRef-Package-c33677153ab8970e",
             "versionInfo": "3.0.3",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -764,11 +804,12 @@
                     "referenceLocator": "pkg:composer/ralouphie/getallheaders@3.0.3"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "ramsey/collection",
-            "SPDXID": "SPDXRef-Package-77157c9740989a5d",
+            "SPDXID": "SPDXRef-Package-c2672b644d9ca567",
             "versionInfo": "2.0.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -782,11 +823,12 @@
                     "referenceLocator": "pkg:composer/ramsey/collection@2.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "ramsey/uuid",
-            "SPDXID": "SPDXRef-Package-89f2bc7a5ab1808d",
+            "SPDXID": "SPDXRef-Package-ddda9beaaae9ea8c",
             "versionInfo": "4.7.5",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -800,12 +842,13 @@
                     "referenceLocator": "pkg:composer/ramsey/uuid@4.7.5"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/console",
-            "SPDXID": "SPDXRef-Package-c88599b036edfcdb",
-            "versionInfo": "v6.4.1",
+            "SPDXID": "SPDXRef-Package-c85f8c792f584672",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -815,14 +858,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/console@v6.4.1"
+                    "referenceLocator": "pkg:composer/symfony/console@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/css-selector",
-            "SPDXID": "SPDXRef-Package-5ba800322ec6a0e0",
+            "SPDXID": "SPDXRef-Package-c4299cfc82c1e574",
             "versionInfo": "v7.0.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -836,11 +880,12 @@
                     "referenceLocator": "pkg:composer/symfony/css-selector@v7.0.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "SPDXID": "SPDXRef-Package-88abbe4cc4040cf",
+            "SPDXID": "SPDXRef-Package-f8ee757caa037f3d",
             "versionInfo": "v3.4.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -854,11 +899,12 @@
                     "referenceLocator": "pkg:composer/symfony/deprecation-contracts@v3.4.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/error-handler",
-            "SPDXID": "SPDXRef-Package-e59b93130e6ee50f",
+            "SPDXID": "SPDXRef-Package-472b01b9e21075d",
             "versionInfo": "v6.4.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -872,12 +918,13 @@
                     "referenceLocator": "pkg:composer/symfony/error-handler@v6.4.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/event-dispatcher",
-            "SPDXID": "SPDXRef-Package-f485da0151e436f0",
-            "versionInfo": "v7.0.0",
+            "SPDXID": "SPDXRef-Package-2e31007819ef1e1",
+            "versionInfo": "v7.0.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -887,14 +934,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v7.0.0"
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v7.0.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "SPDXID": "SPDXRef-Package-18f446b4904731d8",
+            "SPDXID": "SPDXRef-Package-ecfe65f339a65069",
             "versionInfo": "v3.4.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -908,11 +956,12 @@
                     "referenceLocator": "pkg:composer/symfony/event-dispatcher-contracts@v3.4.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/finder",
-            "SPDXID": "SPDXRef-Package-2db580328a7a0cb2",
+            "SPDXID": "SPDXRef-Package-9e6426cd37cc43ca",
             "versionInfo": "v6.4.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -926,12 +975,13 @@
                     "referenceLocator": "pkg:composer/symfony/finder@v6.4.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/http-foundation",
-            "SPDXID": "SPDXRef-Package-a6b14316b259718e",
-            "versionInfo": "v6.4.0",
+            "SPDXID": "SPDXRef-Package-49402242078e416c",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -941,15 +991,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/http-foundation@v6.4.0"
+                    "referenceLocator": "pkg:composer/symfony/http-foundation@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/http-kernel",
-            "SPDXID": "SPDXRef-Package-c1e362c08438ae4d",
-            "versionInfo": "v6.4.1",
+            "SPDXID": "SPDXRef-Package-d3c546d6e2ab2535",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -959,15 +1010,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/http-kernel@v6.4.1"
+                    "referenceLocator": "pkg:composer/symfony/http-kernel@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/mailer",
-            "SPDXID": "SPDXRef-Package-525c1109204e69ff",
-            "versionInfo": "v6.4.0",
+            "SPDXID": "SPDXRef-Package-3caa129613252119",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -977,14 +1029,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/mailer@v6.4.0"
+                    "referenceLocator": "pkg:composer/symfony/mailer@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/mime",
-            "SPDXID": "SPDXRef-Package-e2bbb512bda5a4d2",
+            "SPDXID": "SPDXRef-Package-ffd689d8dbbc8b93",
             "versionInfo": "v6.4.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -998,11 +1051,12 @@
                     "referenceLocator": "pkg:composer/symfony/mime@v6.4.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "SPDXID": "SPDXRef-Package-debe9b073076a7f",
+            "SPDXID": "SPDXRef-Package-bc182f72786acbe8",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1016,11 +1070,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-ctype@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "SPDXID": "SPDXRef-Package-b24161979b82d6d8",
+            "SPDXID": "SPDXRef-Package-f55a1ece42fb504a",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1034,11 +1089,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-intl-grapheme@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "SPDXID": "SPDXRef-Package-62b4a701cde26a6f",
+            "SPDXID": "SPDXRef-Package-7b97a378ab803bd7",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1052,11 +1108,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-intl-idn@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "SPDXID": "SPDXRef-Package-af865308b26e725d",
+            "SPDXID": "SPDXRef-Package-2542518274aa509f",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1070,11 +1127,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-intl-normalizer@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "SPDXID": "SPDXRef-Package-e02be3d3b6e30c11",
+            "SPDXID": "SPDXRef-Package-c30805e0f6cd1dfc",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1088,11 +1146,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-mbstring@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-php72",
-            "SPDXID": "SPDXRef-Package-6f40774385e304bb",
+            "SPDXID": "SPDXRef-Package-5adf047da7aa3928",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1106,11 +1165,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-php72@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-php80",
-            "SPDXID": "SPDXRef-Package-f6b7ed5e7b9e7ee7",
+            "SPDXID": "SPDXRef-Package-f873a3f4e9a054a3",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1124,11 +1184,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-php80@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-php83",
-            "SPDXID": "SPDXRef-Package-adac3efdcd639792",
+            "SPDXID": "SPDXRef-Package-c4aed6aa151213a0",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1142,11 +1203,12 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-php83@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/polyfill-uuid",
-            "SPDXID": "SPDXRef-Package-b159a5cc1bd13edd",
+            "SPDXID": "SPDXRef-Package-cae6ae14ea6264fb",
             "versionInfo": "v1.28.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1160,12 +1222,13 @@
                     "referenceLocator": "pkg:composer/symfony/polyfill-uuid@v1.28.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/process",
-            "SPDXID": "SPDXRef-Package-619495770e52c509",
-            "versionInfo": "v6.4.0",
+            "SPDXID": "SPDXRef-Package-ddbe45df1bc4679a",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -1175,15 +1238,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/process@v6.4.0"
+                    "referenceLocator": "pkg:composer/symfony/process@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/routing",
-            "SPDXID": "SPDXRef-Package-808abff072554b4a",
-            "versionInfo": "v6.4.1",
+            "SPDXID": "SPDXRef-Package-c04518591beb298d",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -1193,15 +1257,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/routing@v6.4.1"
+                    "referenceLocator": "pkg:composer/symfony/routing@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/service-contracts",
-            "SPDXID": "SPDXRef-Package-c7b2323867698cde",
-            "versionInfo": "v3.4.0",
+            "SPDXID": "SPDXRef-Package-5d223d2946b2f841",
+            "versionInfo": "v3.4.1",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -1211,15 +1276,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/service-contracts@v3.4.0"
+                    "referenceLocator": "pkg:composer/symfony/service-contracts@v3.4.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/string",
-            "SPDXID": "SPDXRef-Package-a0436fd8300535ee",
-            "versionInfo": "v7.0.0",
+            "SPDXID": "SPDXRef-Package-cb9636771663a7cb",
+            "versionInfo": "v7.0.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -1229,15 +1295,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/string@v7.0.0"
+                    "referenceLocator": "pkg:composer/symfony/string@v7.0.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/translation",
-            "SPDXID": "SPDXRef-Package-9a340c075205f4bd",
-            "versionInfo": "v6.4.0",
+            "SPDXID": "SPDXRef-Package-2cf2ef4299c5dd69",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -1247,15 +1314,16 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/translation@v6.4.0"
+                    "referenceLocator": "pkg:composer/symfony/translation@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/translation-contracts",
-            "SPDXID": "SPDXRef-Package-660abc01c535345e",
-            "versionInfo": "v3.4.0",
+            "SPDXID": "SPDXRef-Package-c9e6e8fd367926b1",
+            "versionInfo": "v3.4.1",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -1265,14 +1333,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/translation-contracts@v3.4.0"
+                    "referenceLocator": "pkg:composer/symfony/translation-contracts@v3.4.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/uid",
-            "SPDXID": "SPDXRef-Package-cdf6f25020ed7b2b",
+            "SPDXID": "SPDXRef-Package-5c5c1d2d8f8e3ae6",
             "versionInfo": "v6.4.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1286,12 +1355,13 @@
                     "referenceLocator": "pkg:composer/symfony/uid@v6.4.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "symfony/var-dumper",
-            "SPDXID": "SPDXRef-Package-db17a82bf1ed716d",
-            "versionInfo": "v6.4.0",
+            "SPDXID": "SPDXRef-Package-c7a801593e0636ff",
+            "versionInfo": "v6.4.2",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
@@ -1301,14 +1371,15 @@
                 {
                     "referenceCategory": "PACKAGE_MANAGER",
                     "referenceType": "purl",
-                    "referenceLocator": "pkg:composer/symfony/var-dumper@v6.4.0"
+                    "referenceLocator": "pkg:composer/symfony/var-dumper@v6.4.2"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
-            "SPDXID": "SPDXRef-Package-8d5c1a3f995e235d",
+            "SPDXID": "SPDXRef-Package-8478b3c6b90ffef8",
             "versionInfo": "v2.2.7",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1322,11 +1393,12 @@
                     "referenceLocator": "pkg:composer/tijsverkoyen/css-to-inline-styles@v2.2.7"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "vlucas/phpdotenv",
-            "SPDXID": "SPDXRef-Package-2091e31f636faad0",
+            "SPDXID": "SPDXRef-Package-d9e87c3105b0a434",
             "versionInfo": "v5.6.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1340,11 +1412,12 @@
                     "referenceLocator": "pkg:composer/vlucas/phpdotenv@v5.6.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "voku/portable-ascii",
-            "SPDXID": "SPDXRef-Package-669a749aa83097f4",
+            "SPDXID": "SPDXRef-Package-c66d79808cbd5b67",
             "versionInfo": "2.0.1",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1358,11 +1431,12 @@
                     "referenceLocator": "pkg:composer/voku/portable-ascii@2.0.1"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         },
         {
             "name": "webmozart/assert",
-            "SPDXID": "SPDXRef-Package-c0afa771e0612d58",
+            "SPDXID": "SPDXRef-Package-5530fe16d9e621d3",
             "versionInfo": "1.11.0",
             "supplier": "NOASSERTION",
             "downloadLocation": "NONE",
@@ -1376,6 +1450,7 @@
                     "referenceLocator": "pkg:composer/webmozart/assert@1.11.0"
                 }
             ],
+            "primaryPackagePurpose": "LIBRARY",
             "copyrightText": "NOASSERTION"
         }
     ],
@@ -1393,7 +1468,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-82128a04ffa271cb",
+            "relatedSpdxElement": "SPDXRef-Package-55184312064b6fda",
             "relationshipType": "CONTAINS"
         },
         {
@@ -1403,7 +1478,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-53db3a6696a87e68",
+            "relatedSpdxElement": "SPDXRef-Package-7958e8522db6e8f4",
             "relationshipType": "CONTAINS"
         },
         {
@@ -1423,7 +1498,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-5fbe6c9e5307483b",
+            "relatedSpdxElement": "SPDXRef-Package-7845ce7157fa3883",
             "relationshipType": "CONTAINS"
         },
         {
@@ -1453,27 +1528,27 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c9878d7b77ac0e",
+            "relatedSpdxElement": "SPDXRef-Package-ab4a700f55fb90f7",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-5137f7dd75feff79",
+            "relatedSpdxElement": "SPDXRef-Package-22c243ca07b63c53",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-bbc9647181a927d1",
+            "relatedSpdxElement": "SPDXRef-Package-a45874758da5ea1e",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-30de6eee34902906",
+            "relatedSpdxElement": "SPDXRef-Package-d012482bbc81080b",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c7ab03910967921d",
+            "relatedSpdxElement": "SPDXRef-Package-dd634a0ca16eee19",
             "relationshipType": "CONTAINS"
         },
         {
@@ -1483,22 +1558,22 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-6b6005520d074a86",
+            "relatedSpdxElement": "SPDXRef-Package-98a9275855858657",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-48f4793c07e2217e",
+            "relatedSpdxElement": "SPDXRef-Package-862ccfe50aee619a",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-614cac7462d3d1f9",
+            "relatedSpdxElement": "SPDXRef-Package-ed45f4847f567dae",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-6942e6f3d789ef86",
+            "relatedSpdxElement": "SPDXRef-Package-f26aff401c86bc9b",
             "relationshipType": "CONTAINS"
         },
         {
@@ -1508,252 +1583,252 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-e001419f9d57ca9",
+            "relatedSpdxElement": "SPDXRef-Package-32abd74f18a0e175",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-d20d229ab369c332",
+            "relatedSpdxElement": "SPDXRef-Package-b4606d3704d63927",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-15fdbf5b9899dbe7",
+            "relatedSpdxElement": "SPDXRef-Package-7060507292ec3280",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c27ad041389d560c",
+            "relatedSpdxElement": "SPDXRef-Package-5d85e7d9ed7be17b",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-3433e8c00fe85b49",
+            "relatedSpdxElement": "SPDXRef-Package-7fa9812d00eed63f",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-210b1f62ddab58e5",
+            "relatedSpdxElement": "SPDXRef-Package-e63b44c183e918ec",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-72ca0502e4beef32",
+            "relatedSpdxElement": "SPDXRef-Package-f059d09fa07cb3df",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-908661c0e7b8e7e4",
+            "relatedSpdxElement": "SPDXRef-Package-99a8bdec01387b0a",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-34787ef1c71f0ef",
+            "relatedSpdxElement": "SPDXRef-Package-5f7ab8171f0a1144",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c8d0e03bc0e0d125",
+            "relatedSpdxElement": "SPDXRef-Package-b870de15017dbe8f",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-9ed0420835d5c1ae",
+            "relatedSpdxElement": "SPDXRef-Package-ba8782545b50c1a9",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-50da108a9ea8a1b3",
+            "relatedSpdxElement": "SPDXRef-Package-a4c6d44ceccbdfe6",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-d3a79dad00d27db9",
+            "relatedSpdxElement": "SPDXRef-Package-11b5fe6afb1b4184",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-320dceb3777f58c2",
+            "relatedSpdxElement": "SPDXRef-Package-1331474ce179831",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-2d916291252752c1",
+            "relatedSpdxElement": "SPDXRef-Package-fb2159bae16dcc68",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-b9a78e60e3be5454",
+            "relatedSpdxElement": "SPDXRef-Package-c33677153ab8970e",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-77157c9740989a5d",
+            "relatedSpdxElement": "SPDXRef-Package-c2672b644d9ca567",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-89f2bc7a5ab1808d",
+            "relatedSpdxElement": "SPDXRef-Package-ddda9beaaae9ea8c",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c88599b036edfcdb",
+            "relatedSpdxElement": "SPDXRef-Package-c85f8c792f584672",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-5ba800322ec6a0e0",
+            "relatedSpdxElement": "SPDXRef-Package-c4299cfc82c1e574",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-88abbe4cc4040cf",
+            "relatedSpdxElement": "SPDXRef-Package-f8ee757caa037f3d",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-e59b93130e6ee50f",
+            "relatedSpdxElement": "SPDXRef-Package-472b01b9e21075d",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-f485da0151e436f0",
+            "relatedSpdxElement": "SPDXRef-Package-2e31007819ef1e1",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-18f446b4904731d8",
+            "relatedSpdxElement": "SPDXRef-Package-ecfe65f339a65069",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-2db580328a7a0cb2",
+            "relatedSpdxElement": "SPDXRef-Package-9e6426cd37cc43ca",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-a6b14316b259718e",
+            "relatedSpdxElement": "SPDXRef-Package-49402242078e416c",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c1e362c08438ae4d",
+            "relatedSpdxElement": "SPDXRef-Package-d3c546d6e2ab2535",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-525c1109204e69ff",
+            "relatedSpdxElement": "SPDXRef-Package-3caa129613252119",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-e2bbb512bda5a4d2",
+            "relatedSpdxElement": "SPDXRef-Package-ffd689d8dbbc8b93",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-debe9b073076a7f",
+            "relatedSpdxElement": "SPDXRef-Package-bc182f72786acbe8",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-b24161979b82d6d8",
+            "relatedSpdxElement": "SPDXRef-Package-f55a1ece42fb504a",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-62b4a701cde26a6f",
+            "relatedSpdxElement": "SPDXRef-Package-7b97a378ab803bd7",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-af865308b26e725d",
+            "relatedSpdxElement": "SPDXRef-Package-2542518274aa509f",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-e02be3d3b6e30c11",
+            "relatedSpdxElement": "SPDXRef-Package-c30805e0f6cd1dfc",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-6f40774385e304bb",
+            "relatedSpdxElement": "SPDXRef-Package-5adf047da7aa3928",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-f6b7ed5e7b9e7ee7",
+            "relatedSpdxElement": "SPDXRef-Package-f873a3f4e9a054a3",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-adac3efdcd639792",
+            "relatedSpdxElement": "SPDXRef-Package-c4aed6aa151213a0",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-b159a5cc1bd13edd",
+            "relatedSpdxElement": "SPDXRef-Package-cae6ae14ea6264fb",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-619495770e52c509",
+            "relatedSpdxElement": "SPDXRef-Package-ddbe45df1bc4679a",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-808abff072554b4a",
+            "relatedSpdxElement": "SPDXRef-Package-c04518591beb298d",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c7b2323867698cde",
+            "relatedSpdxElement": "SPDXRef-Package-5d223d2946b2f841",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-a0436fd8300535ee",
+            "relatedSpdxElement": "SPDXRef-Package-cb9636771663a7cb",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-9a340c075205f4bd",
+            "relatedSpdxElement": "SPDXRef-Package-2cf2ef4299c5dd69",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-660abc01c535345e",
+            "relatedSpdxElement": "SPDXRef-Package-c9e6e8fd367926b1",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-cdf6f25020ed7b2b",
+            "relatedSpdxElement": "SPDXRef-Package-5c5c1d2d8f8e3ae6",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-db17a82bf1ed716d",
+            "relatedSpdxElement": "SPDXRef-Package-c7a801593e0636ff",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-8d5c1a3f995e235d",
+            "relatedSpdxElement": "SPDXRef-Package-8478b3c6b90ffef8",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-2091e31f636faad0",
+            "relatedSpdxElement": "SPDXRef-Package-d9e87c3105b0a434",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-669a749aa83097f4",
+            "relatedSpdxElement": "SPDXRef-Package-c66d79808cbd5b67",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
-            "relatedSpdxElement": "SPDXRef-Package-c0afa771e0612d58",
+            "relatedSpdxElement": "SPDXRef-Package-5530fe16d9e621d3",
             "relationshipType": "CONTAINS"
         }
     ]
