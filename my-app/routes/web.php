@@ -16,7 +16,11 @@ Route::view('/preguntas', 'front.preguntas');
 Route::view('/terminos', 'friont.terminos');
 
 // Rutas del carrito
-Route::get('/agregaritem', [\App\Http\Controllers\CarritoController::class, 'agregarItem'])->name('agregaritem');
+Route::post('/agregaritem', [\App\Http\Controllers\CarritoController::class, 'agregarItem'])->name('agregaritem');
+Route::get('/vercarrito', [\App\Http\Controllers\CarritoController::class, 'verCarrito'])->name('vercarrito');
+Route::get('/incrementar/{id}', [\App\Http\Controllers\CarritoController::class, 'incrementarCantidad'])->name('incrementarcantidad');
+Route::get('/decrementar/{id}', [\App\Http\Controllers\CarritoController::class, 'decrementarCantidad'])->name('decrementarcantidad');
+
 
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
