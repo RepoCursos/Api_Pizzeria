@@ -8,19 +8,19 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h1 class="fs-4">PEDIDO N: {{ $pedido->id }} {{ strtoupper($pedido->estado )}}</h1>
+                            <h1 class="fs-4">PEDIDO N: {{ $pedido->id }} {{ strtoupper($pedido->estado) }}</h1>
                         </div>
                         <div class="col-sm-6">
-                            {{!! Form::open(['route'=>['admin.pedido.update',$pedido], 'method'=>'PUT']) !!}}
+                            {!! Form::open(['route'=>['admin.pedido.update',$pedido], 'method'=>'PUT']) !!}
                             <div class="row">
                                 <div class="col-6">
-                                    {{!! Form::select('estado',["nuevo"=>"NUEVO", "proceso"=>"Proceso", "entregado"=>"Entregado"],$pedido->estado,['class'=>'form-control','required']) !!}}
+                                    {!! Form::select('estado',["nuevo"=>"NUEVO", "proceso"=>"PROCESO", "entregado"=>"ENTREGADO"],$pedido->estado,['class'=>'form-control','required']) !!}
                                 </div>
                                 <div class="col-6">
-                                    {{!! Form::submit('ACTUALIZAR',['class'=>'btn btn-success w-100']) !!}}
+                                    {{ Form::submit('ACTUALIZAR',['class'=>'btn btn-success w-100']) }}
                                 </div>
                             </div>
-                            {{!! Form::close() !!}}
+                            {!! Form::close() !!}
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                         <li class="list-group-item">Celular: {{ $pedido->user->celular }}</li>
                         <li class="list-group-item">Email: {{ $pedido->user->email }}</li>
                         <li class="list-group-item">Direccion: {{ $pedido->user->direccion }}</li>
-                        <li class="list-group-item">Fecha Pedido: {{ $pedido->user->fechapedido }}</li>
+                        <li class="list-group-item">Fecha Pedido: {{ $pedido->fechapedido }}</li>
                     </ul>
                 </div>
                 <table class="table table-striped">
@@ -44,17 +44,15 @@
                         @forelse ($pedido->detalles as $item)
                             <tr>
                                 <td>{{ $item->producto->nombre }}</td>
-                                <td>{{ $item->cantidad }}</td>
+                                <td>{{ $item->catnidad }}</td>
                                 <td>{{ $item->precio }}</td>
                                 <td>{{ $item->importe }}</td>
                             </tr>
                         @empty
-                            
                         @endforelse
-
-                        <tr><td colspan="4" class="text-end">SUB TOTAL: {{ $pedido->subtotal }} </td></tr>
-                        <tr><td colspan="4" class="text-end">IVA 22%: {{ $pedido->impuesto }}</td></tr>
-                        <tr><td colspan="4" class="text-end">TOTAL: {{ $pedido->total }}</td></tr>
+                        <tr><td colspan="5" class="text-end">SUB TOTAL: {{ $pedido->subtotal }} </td></tr>
+                        <tr><td colspan="5" class="text-end">IVA 22%: {{ $pedido->impuesto }}</td></tr>
+                        <tr><td colspan="5" class="text-end">TOTAL: {{ $pedido->total }}</td></tr>
                     </tbody>
                 </table>
             </div>

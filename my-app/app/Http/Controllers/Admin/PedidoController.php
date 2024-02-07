@@ -22,6 +22,6 @@ class PedidoController extends Controller
         $pedido = Pedido::findOrFail($id);
         $pedido->fill($request->all());
         $pedido->save();
-        return redirect('admi/pedido');
+        return redirect('admin/pedido');
     }
 }

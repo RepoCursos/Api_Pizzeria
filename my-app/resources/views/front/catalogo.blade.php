@@ -58,6 +58,7 @@
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->qty }} x {{ $item->price }}</td>
                                     <td>{{ number_format($item->qty * $item->price,2) }}</td>
+                                    <td><a href="/eliminaritem/{{ $item->rowId }}"  class="text-danger text-decoration-none">X</a></td>
                                 </tr>
                             @endforeach
                             <tr>

@@ -64,7 +64,6 @@
                         </li>
                         @endif
                         
-
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))

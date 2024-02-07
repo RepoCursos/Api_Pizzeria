@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         @include("admin.menu")
         <div class="col-sm-8">
-            <h1 class="mt-3 mb-3 fs-4">SECCION CATALOGO</h1>
+            <h1 class="mt-3 mb-3 fs-4">SECCION CATEGORIAS</h1>
             <a href="{{route("admin.categoria.create") }}" class="btn btn-success">CREAR CATEGORIA</a>
             @if ($categorias->count())     
             <table class="table table-bordered mt-3">

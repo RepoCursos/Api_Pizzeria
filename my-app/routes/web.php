@@ -20,7 +20,9 @@ Route::post('/agregaritem', [\App\Http\Controllers\CarritoController::class, 'ag
 Route::get('/vercarrito', [\App\Http\Controllers\CarritoController::class, 'verCarrito'])->name('vercarrito');
 Route::get('/incrementar/{id}', [\App\Http\Controllers\CarritoController::class, 'incrementarCantidad'])->name('incrementarcantidad');
 Route::get('/decrementar/{id}', [\App\Http\Controllers\CarritoController::class, 'decrementarCantidad'])->name('decrementarcantidad');
-
+Route::get('/eliminaritem/{id}', [\App\Http\Controllers\CarritoController::class, 'eliminaritem'])->name('eliminaritem');
+Route::get('/eliminarcarrito', [\App\Http\Controllers\CarritoController::class, 'eliminarcarrito'])->name('eliminarcarrito');
+Route::get('confirmarcarrito', [\App\Http\Controllers\CarritoController::class, 'confirmarcarrito'])->name('confirmarcarrito');
 
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
