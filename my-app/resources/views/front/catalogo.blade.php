@@ -14,7 +14,7 @@
                                     <div class="col-sm-4 mt-3 mb-3">
                                         <div class="card">
                                             <a href="/catalogo/{{ $p->slug }}">
-                                                <img src="/img/{{ $p->urlfoto }}" class="card-img-top">
+                                                <img src="/img/{{ $p->urlfoto }}" class="card-img-top" width="180" height="240">
                                             </a>
                                             <div class="card-body text-center">
                                                 @if ($p->precios->count())

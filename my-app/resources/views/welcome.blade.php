@@ -7,12 +7,12 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <h1 class="text-center mt-5 mb-3">Piede ahora tu pizza en Montevideo!</h1>
-
+            <!-- Catalogo de pagina principal -->
             <div class="row">
                 @foreach ($productos as $p)
                 <div class="col-sm-3 mt-3 mb-3">
                     <div class="card">
-                        <img src="/img/{{ $p->urlfoto }}" alt="" class="card-img-top">
+                        <img src="/img/{{ $p->urlfoto }}" class="card-img-top" width="150" height="180">
 
                         <div class="card-body text-center">
                             <p>{{ $p->precio }}</p>
@@ -22,7 +22,6 @@
                         </div>
                     </div>
                 </div>
-                    
                 @endforeach
             </div>
         </div>

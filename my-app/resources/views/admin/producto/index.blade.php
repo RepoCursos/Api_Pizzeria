@@ -18,7 +18,7 @@
                 @forelse ($productos as $c)
                 <tr>
                     <td>{{$c->id}}</td>
-                    <td><img src="/img/{{$c->urlfoto}}" width="100" class="border"></td>
+                    <td><img src="/img/{{$c->urlfoto}}" class="border" width="160" height="200"></td>
                     <td>{{$c->nombre}}</td>
                     <td>     
                         <ul>
